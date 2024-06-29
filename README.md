@@ -1,6 +1,8 @@
 # ds-libs-handbook
 
-A simple handbook for the most frequently commands of data science libs
+A simple handbook for the most frequently commands of data science libraries.
+
+Reminder, only the last command of the cell will be shown on interactive window.
 
 <details open>
   <summary>Libs list</summary>

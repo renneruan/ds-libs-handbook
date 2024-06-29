@@ -45,6 +45,7 @@ round(df.isna().sum() * 100 / len(df), 2)
 df.idade.nunique()
 df.idade.unique()
 df.idade.value_counts()
+df.idade.quantile(0.75)
 
 # %% Selection commands
 df.index
@@ -66,6 +67,8 @@ cols = ['possui_casa', 'emprestimo']
 df[cols] = df[cols].fillna("no")
 df[cols] = df[cols].replace(map_yes_no)
 df[cols] = df[cols].astype(int)
+
+df.drop_duplicates(subset='possui_casa', keep='first')
 
 # df[cols].fillna(method='bfill', axis=0).fillna(0)
 
