@@ -1,8 +1,8 @@
 # %% Example of join, concatenate and lambda function using pandas
 import pandas as pd
 
-df_l = pd.read_csv("../datasets/dataset_4.csv")
-df_r = pd.read_csv("../datasets/dataset_5.csv")
+df_l = pd.read_csv("../datasets/landslides_us.csv")
+df_r = pd.read_csv("../datasets/wines_review.csv")
 
 # %% Lambda functions iterate over entire dataframe
 review_points_mean = df_r.points.mean()

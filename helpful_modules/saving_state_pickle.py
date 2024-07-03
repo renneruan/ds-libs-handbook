@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import pickle
 
-df = pd.read_csv("datasets/dataset_2.csv")
+df = pd.read_csv("../datasets/dados_bancarios.csv")
 
 # %% Save label encoder with pickle
 col_name = "emprego"
