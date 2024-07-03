@@ -1,9 +1,9 @@
 # %% Follow the cells in order to correct execution
-# Reading dataset from dataset_3, dropping the id column
+# Reading dataset from dataset, dropping the id column
 # Mapping bolean columns to replace with 0 or 1
 import pandas as pd
 
-df = pd.read_csv("../datasets/dataset_3.csv")
+df = pd.read_csv("../datasets/servico_telefone.csv")
 df.drop("id_cliente", inplace=True, axis=1)
 map_yes_no = {"nao": 0, "sim": 1}
 

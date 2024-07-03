@@ -6,7 +6,7 @@
 # %%
 import pandas as pd
 
-df = pd.read_csv("../datasets/dataset_1.csv")
+df = pd.read_csv("../datasets/dados_bancarios.csv")
 # df.to_csv('name')
 
 # %% Create dataframe and series with specific labels
