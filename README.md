@@ -13,6 +13,7 @@ This material is a blend from multiples sources like kaggle learn, educational v
   
   - Panda
   - Scikit
+  - Numpy
   - Seaborn
   - Matplotlib
   - Google Cloud Bigquery
