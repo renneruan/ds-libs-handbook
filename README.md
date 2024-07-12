@@ -4,6 +4,10 @@ A simple handbook for the most frequently commands of data science libraries.
 
 Reminder, only the last command of the cell will be shown on interactive window.
 
+Execution tequires Python enviroment, using Python 3.11.7 with Conda Kernel on VS Code.
+
+This material is a blend from multiples sources like kaggle learn, educational videos from Téo Me Why (https://github.com/TeoMeWhy/desbravando-pandas), etc.
+
 <details>
   <summary>Libs used</summary>
   
